@@ -91,15 +91,15 @@ class Game:
         self.zones = []
 
         chambre_npcs = pygame.sprite.Group()
-        leo = NPC((200, 200), name="L\xe9o", item="Stilnox 10mg")
+        leo = NPC((200, 200), name="Léo", item="Stilnox 10mg")
         leo.dialogue = [
-            "L\xe9o : Salut Max...",
+            "Léo : Salut Max...",
             "Je suis un peu perdu, tu sais...",
             "Mais tu devrais aller explorer dehors."
         ]
         chambre_npcs.add(leo)
         self.zones.append({
-            "name": "Chambre de L\xe9o",
+            "name": "Chambre de Léo",
             "bg": (30, 30, 30),
             "npcs": chambre_npcs,
         })
@@ -107,19 +107,19 @@ class Game:
         bar_npcs = pygame.sprite.Group()
         mathias = NPC((400, 150), color=(0, 255, 0), name="Mathias", item="Briquet vide")
         mathias.dialogue = [
-            "Mathias : J\u2019ai arr\u00eat\u00e9 la clope.",
+            "Mathias : J’ai arrêté la clope.",
             "...",
             "*Il tire une taffe devant toi.*",
         ]
         denis = NPC((100, 350), color=(255, 0, 0), name="Denis", item="Glock 17")
         denis.dialogue = [
-            "Denis : T\u2019as vu cette vid\u00e9o o\u00f9 un mec se fait arracher la t\u00eate ?",
-            "Non ? T\u2019es pas un vrai.",
+            "Denis : T’as vu cette vidéo où un mec se fait arracher la tête ?",
+            "Non ? T’es pas un vrai.",
         ]
         nao = NPC((600, 450), color=(255, 105, 180), name="Nao", item="Canette 8.6 vide")
         nao.dialogue = [
             "Nao : Tu veux passer cette porte ?",
-            "Faut boire une 8.6 cul sec d\u2019abord.",
+            "Faut boire une 8.6 cul sec d’abord.",
         ]
         bar_npcs.add(nao, mathias, denis)
         self.zones.append({
