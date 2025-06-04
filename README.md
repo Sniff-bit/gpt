@@ -1,6 +1,6 @@
 # Projet narratif "Aventure de Max"
 
-Cette répository contient les débuts d'un petit jeu 2D humoristique 
+Ce dépôt contient les débuts d'un petit jeu 2D humoristique 
 conçu avec Pygame. Le joueur incarne Max, un jeune homme autiste et
 curieux qui découvre un monde semi-réel peuplé de ses amis.
 
@@ -22,7 +22,7 @@ Les touches fléchées permettent de se déplacer et la barre
 espace sert à parler aux personnages.
 Au lancement, un écran titre propose "Nouvelle partie" ou "Quitter" ;
 utilisez Haut/Bas et Entrée pour choisir.
-Les noms des PNJ apparaissent au-dessus de leur tete.
+Les noms des PNJ apparaissent au-dessus de leur tête.
 Si Max atteint le bord bas de l'écran, une nouvelle zone se charge
 (par exemple le bar de Nao).
 Chaque zone possède ses propres PNJ et dialogues.
